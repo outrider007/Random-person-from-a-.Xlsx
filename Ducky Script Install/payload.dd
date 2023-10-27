@@ -37,17 +37,17 @@ DELAY 10000
 DELAY 200
 STRING Invoke-WebRequest https://github.com/outrider007/Random-person-from-a-.Xlsx/archive/refs/heads/main.zip -O main.zip
 ENTER
-DELAY 10000
+DELAY 12000
 
 STRING Expand-Archive -Path .\main.zip -DestinationPath .\
 DELAY 100
 ENTER
-DELAY 200
+DELAY 3000
 
 STRING exit
 DELAY 50
 ENTER 
-DELAY 1000
+DELAY 3000
 
 
 STRING ren random-person-from-a-.Xlsx-main Randomizer
