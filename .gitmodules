@@ -1,0 +1,3 @@
+[submodule "xlrd"]
+	path = xlrd
+	url = https://github.com/python-excel/xlrd
