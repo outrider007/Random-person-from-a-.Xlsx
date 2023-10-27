@@ -20,7 +20,7 @@ STRING CD "C:\Program Files"
 DELAY 100
 ENTER
 DELAY 500
-
+   
 STRING powershell
 DELAY 100
 ENTER
@@ -99,7 +99,7 @@ DELAY 100
 ENTER 
 DELAY 100
 
-STRING mklink "Randomizer.lnk" "C:\Program Files\Randomizer\exe\main.xlsx"
+STRING mklink "People_Randomizer.lnk" "C:\Program Files\Randomizer\exe\main.xlsx"
 DELAY 100
 ENTER 
 DELAY 100
