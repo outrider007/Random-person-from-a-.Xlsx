@@ -1,13 +1,5 @@
 REM Title: Install git repo :  without git
-REM Author:	
-REM Inspired by burnttoast when assisting with a LONG script (over 2,750 lines!)
-REM
-REM Description: Creates a batch file that opens a Rick Roll every 5 mins in default browser
-REM Notes: Creates batch file, starts batch file, minimizes the window
-REM Target:	Windows but fairly easily modified to work on any OS with a browser
-REM Version:	1.3
-REM Category:	Prank
-REM Source: https://github.com/UberGuidoZ/OMG-Payloads
+REM Author:	Outrider007
 
 
 DELAY 2000
@@ -117,7 +109,7 @@ DELAY 100
 ENTER 
 DELAY 100
 
-STRING echo Donwload Completed
+STRING echo Download Completed
 DELAY 100
 ENTER 
 DELAY 100
