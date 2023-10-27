@@ -15,6 +15,6 @@ The complied .exe version only needs itself the "_internal" directory, icon.ico 
  - Automaticly deletes everyhing else except the .exe part (but can be easily modified to install main.py etc.)
  - You dont need to install git or python
 
-#W ARNING dont change the name of "main.xlsx", "icon.ico and "main.exe" in "program Files
+# WARNING dont change the name of "main.xlsx", "icon.ico and "main.exe" in "program Files
  - This could break the program beacuse "main.py" couldn't access the other files
  - (after using Ducky Sctipt Installer) The desktop shortcut won't be able to find main.exe
