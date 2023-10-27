@@ -9,7 +9,6 @@ import tkinter as tk
 import random
 import xlrd
 import webbrowser
-import sys
 
 
 
@@ -253,7 +252,6 @@ class App():
         self.root = tk.Tk()
         self.root.geometry(f'{resoliton_x}x{resoliton_y}')
         self.root.title(f'Randomizer   {version}, res = {resoliton_x}x{resoliton_y}             , language = English')
-        sys.path.append("_internal")
         self.root.iconbitmap('icon.ico')
         self.mainframe = tk.Frame(self.root, background=background)
         self.mainframe.pack(fill='both', expand=True)
