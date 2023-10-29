@@ -10,7 +10,6 @@ The complied .exe version only needs itself the "_internal" directory, icon.ico 
       - you dont neeed to install python, or anything else when using the .exe version
       - You dont neeed to install python, or anything else when using the .exe version
 # Ducky Script Installer
- - currently works with windows (linux version coming soon)
  - Currently works with windows (linux version coming soon)
  - Automaticly deletes everyhing else except the .exe part (but can be easily modified to install main.py etc.)
  - You dont need to install git or python
