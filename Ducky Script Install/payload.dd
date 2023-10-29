@@ -12,7 +12,7 @@ CONTROL SHIFT ENTER
 DELAY 1000
 
 LEFTARROW
-DELAY 100
+DELAY 1000
 ENTER
 DELAY 1000
 
@@ -39,10 +39,10 @@ DELAY 3000
 STRING exit
 DELAY 50
 ENTER 
-DELAY 3000
+DELAY 10000
 
 
-STRING ren random-person-from-a-.Xlsx-main Randomizer
+STRING ren Random-person-from-a-.Xlsx-main Randomizer
 DELAY 100
 ENTER
 DELAY 100
@@ -50,7 +50,7 @@ DELAY 100
 STRING del main.zip
 DELAY 100
 ENTER
-DELAY 100
+DELAY 200
 
 STRING cd Randomizer
 DELAY 100
@@ -60,19 +60,23 @@ DELAY 100
 STRING del main.py
 DELAY 100
 ENTER
-DELAY 100
+DELAY 2000
 
 STRING del main.xlsx
 DELAY 100
 ENTER
-DELAY 100
+DELAY 200
 
 STRING rmdir /s /q xlrd
 DELAY 100
 ENTER
-DELAY 100
+DELAY 300
 
 STRING rmdir /s /q "Ducky Script Installer"
+DELAY 100
+ENTER 
+DELAY 100
+
 
 STRING del icon.ico
 DELAY 100
@@ -94,15 +98,12 @@ DELAY 100
 ENTER 100
 DELAY 1000
 
-STRING mklink "Randomizer.lnk" "C:\Program Files\Randomizer\exe\main.exe"
+STRING mklink "Randomizer.lnk" "C:\Program Files\Randomizer\exe\main.bat"
 DELAY 100
 ENTER 
 DELAY 100
 
-STRING mklink "People_Randomizer.lnk" "C:\Program Files\Randomizer\exe\main.xlsx"
-DELAY 100
-ENTER 
-DELAY 100
+
 
 STRING color 03
 DELAY 100
